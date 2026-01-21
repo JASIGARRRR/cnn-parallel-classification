@@ -5,17 +5,16 @@ Berikut Link Google Drive Dataset:
 https://drive.google.com/drive/folders/1zPxX6_h5_uEX73HmllO0hm8b4Kr9WQl3?usp=sharing
 
 - Struktur Dataset
-dataset/
-├── train/
-│   ├── Tomato__Tomato_YellowLeaf__Curl_Virus/
-│   └── Tomato_healthy/
-├── validation/
-│   ├── Tomato__Tomato_YellowLeaf__Curl_Virus/
-│   └── Tomato_healthy/
-└── test/
-    ├── Tomato__Tomato_YellowLeaf__Curl_Virus/
-    └── Tomato_healthy/
-
+Leaf_Dataset/
+├── Training_Data/
+│   ├── Tomato_healthy/                           
+│   └── Tomato__Tomato_YellowLeaf__Curl_Virus/
+├── Validation_Data/
+│   ├── Tomato_healthy/         
+│   └── Tomato__Tomato_YellowLeaf__Curl_Virus/
+└── Testing_Data/
+    ├── Tomato_healthy/     
+    └── Tomato__Tomato_YellowLeaf__Curl_Virus/
 - Environment
   Python ≥ 3.9
   TensorFlow ≥ 2.13
